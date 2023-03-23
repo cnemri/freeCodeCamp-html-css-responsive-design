@@ -1,0 +1,60 @@
+/* add image background body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1b1b32;
+    background-image: url("https://img.freepik.com/premium-photo/abstract-glowing-coding-big-data-interface-dark-background-technology-futuristic-network-3d-rendering_670147-22979.jpg");
+}
+
+h1, p {
+    text-align: center;
+    color: #f5f6f7;
+}
+
+form {
+    background-color: #0a0a23;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    max-width: 500px;
+    margin: 0 auto;
+    opacity: 0.8;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #f5f6f7;
+}
+
+input, select, textarea {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    background-color: #0a0a23;
+    color: #fff;
+}
+
+/* make button color compatible with background and form color */
+button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+/* make label color compatible with background and form color */
+
+button:hover {
+    background-color: #3e8e41;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    display: inline-block;
+    margin-right: 0.5rem;
+    width: auto;
+}

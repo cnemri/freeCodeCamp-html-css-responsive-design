@@ -1,0 +1,179 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+/* header is constituted of img and nav. they should be on same row*/
+header {
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    position: fixed;
+    width: 100%;
+}
+
+header img {
+    width: 20rem;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 0 1rem;
+}
+
+header nav a:hover {
+    color: #000;
+}
+
+/* main section is constituted of 3 sections. they should be on same column*/
+
+main {
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+#form-section {
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+#form label {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+#form input {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 1px solid #333;
+    border-radius: 0.5rem;
+}
+
+#form input:focus {
+    outline: none;
+}
+
+#form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#form input[type="submit"]:hover {
+    background-color: #000;
+}
+
+#features-section {
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.feature-container {
+    /* feature icon and feature detail should be on same row but with more space between them. align to left */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 2rem;
+    margin: 2rem;
+}
+
+.feature i {
+    font-size: 5rem;
+    margin-bottom: 1rem;
+    color: olivedrab;
+    margin-right: 5rem;
+    position: relative;
+    top: 50%;
+    transform: translateY(50%);
+}
+
+
+#how-it-works-section {
+    background-color: #eee;
+}
+
+#video {
+    width: auto;
+}
+
+#pricing-section {
+    background-color: #eee;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+}
+
+.pricing-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    margin: 2rem;
+}
+
+.pricing {
+    padding: 2rem;
+    background-color: #fff;
+    margin: 2rem;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;;
+}
+
+footer {
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
